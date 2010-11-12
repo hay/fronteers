@@ -65,19 +65,17 @@ pre. <?xml version="1.0" encoding="UTF-8"?>
         
 h1. DOCTYPE in HTML5
 
-        @
-        <!doctype html>
-        <html>
-            <head>
-                <link rel="stylesheet" href="style.css" />
-                <title>Title</title>
-            </head>
-            <body>
-                <p>Hallo wereld</p>
-            </body>
-        </html>
-        @
-        
+pre. <!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <title>Title</title>
+    </head>
+    <body>
+        <p>Hallo wereld</p>
+    </body>
+</html>
+            
 h1. FATALITY!
 <img src="img/mk2.png" width="800" />
 
@@ -110,6 +108,7 @@ h1. @<input> types@
 Prachtige presentatie van de nieuwe input types
 
 h1. @<section>@, @<header>@, @<footer>@, etc.
+
 Prachtige presentatie van de canvas tag
 
 h1. Fronteers 2010
