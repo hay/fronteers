@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link href="style.css" type="text/css" rel="stylesheet"></link>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="video_subtitles.js"></script>
+  </head>
+
+  <body onload="processor.doLoad()">
+    <div id="args">
+      <label for="es">Spanish
+        <input name="lang" type="radio" id="es"/>
+      </label>
+      <label for="en">English
+        <input name="lang" type="radio" id="en" checked=""/>
+      </label>
+      <label for="fr">French
+        <input name="lang" type="radio" id="fr"/>
+      </label>
+    </div>
+
+    <div id="main">
+      <video id="video" src="http://files.vpro.nl/media/subtitle.ogv" controls autoload/>
+      <div id="subtitle"/>
+
+			<a id="source">The subtitles source code</a>
+    </div>
+  </body>
+</html>

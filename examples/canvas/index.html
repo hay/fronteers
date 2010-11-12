@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="description" content="This soft blob bounces off the edges of the browser window and can be split into multiple blobs. The HTML5 canvas element is used for visual output." />
+		<meta name="keywords" content="hakim, elhattab, hakim el hattab, hakim elhattab, interactive, developer, flash, html5, canvas, web, experiments" />
+		<meta name="author" content="Hakim El Hattab" />
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+	    <meta name="apple-mobile-web-app-capable" content="yes"><meta name = "viewport" content = "width = 670">		
+        <title>Blob - an experiment with soft bouncy physics built using the HTML5 canvas tag.</title>
+        
+		<script type="text/javascript">
+	tweetmeme_style = "compact";
+	tweetmeme_source = "hakimel";
+</script>		
+		<style type="text/css"> html{color:#000;background:#222222;}a{cursor:pointer;}html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}q:before,q:after{content:'';}abbr,acronym {border:0;font-variant:normal;}sup {vertical-align:text-top;}sub {vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;outline-style:none;outline-width:0pt;}legend{color:#000;}a:focus,object,h1,h2,h3,h4,h5,h6{-moz-outline-style: none; border:0px;}strong {font-weight: bold;}@font-face { font-family: Delicious; font-weight: bold; src: url('../../../assets/fonts/Delicious-Bold.otf'); }body {overflow: hidden;font-family: Georgia, Helvetica, Arial, sans-serif;color: #333333;font-size: 11px;}a, a:hover {transition: all .08s linear;-o-transition: all .08s linear;-moz-transition: all .08s linear;-webkit-transition: all .08s linear;padding: 1px;}p.noCanvas {color: #999999;font-size: 24px;text-align: center;margin-top: 150px;}#panel {position: absolute; margin: 5px;padding: 5px;z-index: 99;background-color: #FFFECF;border: 1px solid #e1e0af;}#panel a {color: #333333;background-color: #FFFECF;text-decoration: underline;}#panel a:hover {color: #FFFECF;background-color: #333333;}#panel a.versionLink {padding: 1px;text-decoration: underline;}#panel a.versionLink.selected {color: #888888;text-decoration: none;}#panel p {padding: 0px 5px 5px 5px;line-height: 1.6em;}#panel h2 {font-size: 20px;font-weight: bold;font-family: Delicious, Helvetica, sans-serif;padding: 5px 5px 5px 5px;}#chromeBadge {position: absolute; bottom: 0; right: 0;padding: 4px;}#sharing {background-color: #FFFECF;position: absolute; top: 0;right: 0;margin: 5px;padding: 7px 0 4px 10px;z-index: 98;border: 1px solid #e1e0af;}#facebook_button {float: left;}#retweet_button {float: left;}#flattr_button {float: right;margin: 1px 10px 0 4px;}			
+		</style>
+		
+		<link type="text/css" href="styles.css" rel="stylesheet" media="screen" />
+    </head>
+    <body>
+		<div id="panel">
+			<h2><a href="../../../">Experiments</a> / Blob / 03</h2>
+			<p><b>Double click</b> on a blob to split it, drag together to merge<br/><b>Shake</b> the browser window to make them bounce.<br/>Use the keyboard <b><a id="keyboardUp" href="#">up</a> / <a id="keyboardDown" href="#">down</a></b> arrows to change blob size and<br/>the <b><a id="keyboardLeft" href="#">left</a> / <a id="keyboardRight" href="#">right</a></b> arrows to change between skins.</p>
+								</div>
+		
+<canvas id="world"><p class="noCanvas">You need a <a href="http://www.google.com/chrome">modern browser</a> to view this.</p></canvas>
+
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script><script type="text/javascript" src="js/blob.min.js"></script>
+		
+		
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-15240703-1");
+		pageTracker._trackPageview();
+		} catch(err) {}</script>
+    </body>
+</html>

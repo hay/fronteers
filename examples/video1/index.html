@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <style>
+        #box {
+            width: 200px;
+            height: 200px;
+            background: red;
+        }
+
+        .rot {
+            float: left;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <button id="close">close</button>
+
+    <div id="box" class="rot"></div>
+
+    <img src="http://files.vpro.nl/img/vpro.png" class="rot" width=320 />
+
+    <video src="http://files.vpro.nl/media/trololo.mp4" class="rot" width=320 controls />
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script>
+    (function($) {
+        $("#close").click(function() {
+            $("body").empty();
+        });
+        
+        $(".rot").click(function() {
+            var r = 0, el = this;
+            function ani() {
+                $(el).css('-webkit-transform', 'rotate3d(1, 1, 1, ' + r + 'deg)');
+                r += 3;
+                setTimeout(ani, 40);
+            }
+            ani();
+        });
+    })(jQuery);
+    </script>
+</body>
+</html>

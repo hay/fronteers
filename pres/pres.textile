@@ -44,9 +44,9 @@ h1. FIGHT!
 <img src="img/mk1.gif" height="600" />
 
 h1. DOCTYPE in XHTML
-        
+
 pre. <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" 
+<?xml-stylesheet type="text/css"
                     href="http://www.w3.org/MarkUp/style/xhtml2.css"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 2.0//EN"
     "http://www.w3.org/MarkUp/DTD/xhtml2.dtd">
@@ -61,8 +61,8 @@ pre. <?xml version="1.0" encoding="UTF-8"?>
     <body>
     <p>Hallo wereld!</p>
     </body>
-</html>    
-        
+</html>
+
 h1. DOCTYPE in HTML5
 
 pre. <!doctype html>
@@ -75,7 +75,7 @@ pre. <!doctype html>
         <p>Hallo wereld</p>
     </body>
 </html>
-            
+
 h1. FATALITY!
 <img src="img/mk2.png" width="800" />
 
@@ -89,27 +89,36 @@ h1. Nieuwe mogelijkheden
 
 h1. @<canvas>@
 
-Prachtige presentatie van de canvas tag
+<iframe src="../examples/canvas/" width="800" height="500"></iframe>
 
-h1. @<svg>@
+h1. @<svg>@ 1/2
 
-Prachtige presentatie van de svg tag
+<iframe src="../examples/svg/tiger.svg" width="800" height="500"></iframe>
+
+h1. @svg@ 2/2
+
+<iframe src="../examples/svg/invaders.svg" width="800" height="500"></iframe>
 
 h1. @<audio>@
 
-Prachtige presentatie van de audio tag
+@<audio src="http://files.vpro.nl/media/python.oga" controls></audio>@
 
-h1. @<video>@
+<audio src="http://files.vpro.nl/media/python.oga" controls></audio>
 
-Prachtige presentatie van de video tag
+h1. @<video>@ 1/3
+
+@<video src="http://files.vpro.nl/media/trololo.mp4" controls></video>@
+
+<video src="http://files.vpro.nl/media/trololo.mp4" controls></video>
+
+h1. @<video>@ 2/3
+
+<iframe src="../examples/video1/" width="800" height="500"></iframe>
 
 h1. @<input> types@
 
-Prachtige presentatie van de nieuwe input types
+<iframe src="../examples/input/" width="800" height="500"></iframe>
 
-h1. @<section>@, @<header>@, @<footer>@, etc.
-
-Prachtige presentatie van de canvas tag
 
 h1. Fronteers 2010
 
@@ -134,26 +143,26 @@ toekomst van HTML: HTML5 ("WHATWG":http://www.whatwg.org/) of XHTML2 ("W3C":http
 
 HTML5 wint oa vanwege de "HTML5 Design Principles":http://www.w3.org/TR/html-design-principles/
 
-pre. You'll probably find the design principle, or multiple design principles, 
+pre. You'll probably find the design principle, or multiple design principles,
 behind all good examples of anything that's been built collaboratively.
 
 En juist deze principes kunnen er voor zorgen dat beide werkgroepen _samen_ kunnen werken aan de toekomst van HTML
 
     </section>
     <section>
-    
+
 h2. Erg belangrijk principe voor de 'winst' van HTML5: "Robustness Principle":http://en.wikipedia.org/wiki/Robustness_principle
 
 pre. Be conservative in what you send, be liberal in what you accept
 
 vb XHTML2: omdat het geserveerd moet worden als XML breekt de browser het renderen af
-al bij 1 error. 
-    
+al bij 1 error.
+
     </section>
 </div>
-    
-    
-    
+
+
+
 h1. JavaScript, Like a box of chocolates
 
 h2. door Robert Nyman "@robertnyman":http://twitter.com/robertnyman
@@ -170,7 +179,7 @@ h2. door Brad Neuburg, "@bradneuburg":http://twitter.com/bradneuburg, "video":ht
 
 <div class="step">
     <section>
-    
+
 h2. Scalable Vector Graphics
 
 Dave Weinberger: "Small pieces loosely joined":http://www.smallpieces.com/
@@ -179,7 +188,7 @@ SVG is een onderdeel van je 'toolbelt', gecombineerd met CSS(3), HTML5 en JavaSc
     </section>
 
     <section>
-    
+
 *Wanneer wel*
 * dynamisch schalen
 * als je CSS wilt gebruiken (geen colorizehex meer nodig :) )
@@ -188,7 +197,7 @@ SVG is een onderdeel van je 'toolbelt', gecombineerd met CSS(3), HTML5 en JavaSc
 
     </section>
     <section>
-    
+
 *Wanneer niet*
 * als je heel veel plaatjes (met interactie) nodig hebt, bv in spelletjes
 * pixel georiënteerde applicaties
@@ -201,7 +210,7 @@ h1. Vector Graphics for the web
 
 <div class="step">
     <section>
-        
+
 *Hoe?*
 * direct embedding
 * &lt;img src=".svg" /&gt;
@@ -214,15 +223,15 @@ h1. Vector Graphics for the web
 
     </section>
     <section>
-    
+
 *Nog meer interessante links*
 
-"I Twitty The Fool. SVG animations":http://www.anthonycalzadilla.com/i-twitty-the-fool/    
-    
+"I Twitty The Fool. SVG animations":http://www.anthonycalzadilla.com/i-twitty-the-fool/
+
     </section>
-</div>   
-    
-    
+</div>
+
+
 
 h1. A CSS3 talk
 
@@ -231,7 +240,7 @@ h2. door "Håkon Wium Lie":http://people.opera.com/howcome/ (bedacht CSS in 1994
 
 <div class="step">
     <section>
-    
+
 pre. 1994
 "World Wide Web: You click, we do the rest!"
 "Border-radius, isn't that something from the 70's? nobody is gonna use that!?"
@@ -240,7 +249,7 @@ pre. 1994
 
     </section>
     <section>
-    
+
 *"CSS3's interessante punten:":http://www.css3.info/preview/*
 * backgrounds en borders
 * fonts (ook fonts met plaatjes)
@@ -249,12 +258,12 @@ pre. 1994
 * Media Queries, bijv. @media (max-width: 600px) { ... }
 * Generated content for paged media, waaronder dynamische paginering
 ** Progressive enhancement in CSS
-** ook float:bottom, float:top   
-    
+** ook float:bottom, float:top
+
     </section>
 </div>
-    
-    
+
+
 h1. Progressive Downloads and Rendering
 
 h2. door "Stoyan Stefanov":http://www.phpied.com, "@stoyanstefanov":http://twitter.com/stoyanstefanov,
@@ -262,11 +271,11 @@ h2. door "Stoyan Stefanov":http://www.phpied.com, "@stoyanstefanov":http://twitt
 
 <div class="step">
     <section>
-    
+
 *Highspeed praatje over website performance.*
 * Een website voelt traag wanneer het langer dan 200ms duurt voordat er iets zichtbaar is.
-* 50% van de gebruikers komt met een lege (front-end) cache, dus optimaliseer hiervoor    
-    
+* 50% van de gebruikers komt met een lege (front-end) cache, dus optimaliseer hiervoor
+
     </section>
     <section>
 
@@ -280,9 +289,9 @@ h2. door "Stoyan Stefanov":http://www.phpied.com, "@stoyanstefanov":http://twitt
 ** Content Delivery Networks
 * Progressive downloads (JavaScript inladen middels defer attribuut of asynchroon)
 * "Chunked Encoding / Flushing":http://www.phpied.com/progressive-rendering-via-multiple-flushes/ (Google doet dit door header, resultaten en footer in chunks aan te bieden, maar ook JSON)
-        
+
     </section>
-</div>    
+</div>
 
 
 h1. Progressive Downloads and Rendering
@@ -298,17 +307,17 @@ h1. Progressive Downloads and Rendering
 * Gebruik data:uri en base64 encoding voor inline images (zie Google thumbs)
 ** voor IE < 8 : "M(ime)HTML":http://www.phpied.com/mhtml-when-you-need-data-uris-in-ie7-and-under/
 "It is possible to do a complete web app in one single HTTP request"
-* CSS Sprites    
-    
+* CSS Sprites
+
     </section>
     <section>
-    
+
 *Handige links:*
 * "Perfplanet.com/":http://www.perfplanet.com/ News and views from the
 web performance blogosphere
 * "Chunk encoding viewer":http://tools.w3clubs.com/chunkview/chunkview.php
 * CSS Sprites "http://spriteme.org/":http://spriteme.org/
-    
+
     </section>
 </div>
 
@@ -322,12 +331,12 @@ h1. CSS Workflow
 h2. door Jina Bolton "@jina":http://twitter.com/jina, "slides (PDF)":http://crushlovely.com/downloads/cssworkflow, "video":http://vimeo.com/15982903
 
 pre. "Be regular and orderly in your life so that you may be violent and original
-in your work" - Gustave Flaubert 
+in your work" - Gustave Flaubert
 "A good workflow = more time to be creative" - Jina
 
 <div class="step">
     <section>
-    
+
 *Haar workflow:*
 * Evaluatie
 ** evalueer alle pagina's om een goed beeld te krijgen van de architectuur
@@ -336,8 +345,8 @@ in your work" - Gustave Flaubert
 * Meaningful markup
 ** liever duidelijk dan afgekort
 ** wees consistent (- of _)
-** welke doctype 
-    
+** welke doctype
+
     </section>
 </div>
 
@@ -346,7 +355,7 @@ h1. CSS Workflow
 
 <div class="step">
     <section>
-    
+
 * Opbouw van stylesheets
 ** resets (vb "http://html5doctor.com/html-5-reset-stylesheet/":http://html5doctor.com/html-5-reset-stylesheet/ ) en basis
 ** alfabetische ordening of lexografisch
@@ -359,15 +368,15 @@ h1. CSS Workflow
 ** Firebug
 ** W3C
 ** Diagnostic CSS, "http://meyerweb.com/eric/tools/css/diagnostics/":http://meyerweb.com/eric/tools/css/diagnostics/
-    
+
     </section>
     <section>
-    
+
 *Handige links:*
 * "ProCSSor":http://procssor.com/, CSS formatter
 * "HTML5 Boilerplate":http://html5boilerplate.com/, een HTML5 starterskit
 
-    </section>    
+    </section>
 </div>
 
 
@@ -378,25 +387,25 @@ h2. door Jake Archibald "@jaffathecake":http://twitter.com/jaffathecake, "slides
 
 <div class="step">
     <section>
-    
+
 *5 elements to writing good reusable code:*
 # Consistency
 # Flexibillity (gemakkelijk voor derden)
-# readabillity 
+# readabillity
 # writeabillity (documentatie)
-# kinda-useful-abillity    
-    
+# kinda-useful-abillity
+
     </section>
     <section>
-    
-*Steps for writing reusable component code:*    
+
+*Steps for writing reusable component code:*
 # Define requirements
 # Write API before code
 # Hoe schrijf je je code
 ** Gebruik Namespaces of een library plugin
 ** wees consistent en schrijf leesbare code, parameters, functienamen, ..
 # Testing
-** en laat je code zien aan en documentatie lezen door anderen.   
+** en laat je code zien aan en documentatie lezen door anderen.
 
     </section>
 </div>
@@ -406,11 +415,11 @@ h1. Reusable Code, for good or for awesome!
 
 <div class="step">
     <section>
-    
+
 pre. "Be consistent!"
 
 !consistent.jpg!
-    
+
     </section>
 </div>
 
@@ -437,20 +446,20 @@ Ethan Marcotte's "artikel":http://www.alistapart.com/articles/responsive-web-des
 
 <div class="step">
     <section>
-    
+
 *Discussie:*
 Media Queries: Silver Bullets or Fools Gold?
 
 pre. "Design is the method of putting form and content together"
  - Paul Rand
- 
+
 * Layout != design
 * Design = thinking about the content and scenario's (platform agnostic)
 * Design = thinking about the user-experience (platform aware)
 * Media Queries zijn (maar) een gereedschap voor adaptive layout, niet de oplossing voor het maken van sites voor alle type devices en use-cases
 
     </section>
-</div>    
+</div>
 
 
 h1. Real-world Responsive Design
@@ -466,15 +475,15 @@ h2. Technieken voor responsive design
 
 <div class="step">
     <section>
-    
+
 *Nu*
 * "CSS Media Query":http://www.w3.org/TR/css3-mediaqueries/
 * Met JavaScript resoluties checken
 * Progressive enhancement (begin inclusief, niet exclusief)
-* Omarm onzekerheid, gebruik fluid grids, niet een aantal vaste layouts   
-* "meta viewport":http://www.quirksmode.org/blog/archives/2010/09/combining_meta.html 
+* Omarm onzekerheid, gebruik fluid grids, niet een aantal vaste layouts
+* "meta viewport":http://www.quirksmode.org/blog/archives/2010/09/combining_meta.html
 * SVG
-       
+
     </section>
     <section>
 
@@ -507,11 +516,11 @@ Een CSS3 property om naar uit te kijken is het specificeren van kleur in "RGBA":
 
 <div class="step">
     <section>
-    
+
 *Handige links / resources*
 * "CSS3please.com":http://CSS3please.com Test CSS3 in de browser!
 * "HandcraftedCSS.com":http://handcraftedcss.com/ Goed CSS3 boek
-* Artikel "On Web Typography":http://alistapart.com/articles/on-web-typography    
+* Artikel "On Web Typography":http://alistapart.com/articles/on-web-typography
 * Open Source fonts op "The League of Moveable Type":http://www.theleagueofmoveabletype.com/
     </section>
 </div>
@@ -527,24 +536,24 @@ h2. door Nicholas Zakas, "@slicknet":http://twitter.com/slicknet, "slides":http:
 <div class="step">
     <section>
 
-pre. JavaScript performance directly affects user experience 
+pre. JavaScript performance directly affects user experience
 
 De browser heeft een UI-thread die zowel JavaScript execution als UI updates regelt, maar niet tegelijkertijd. Beiden komen terecht in 1 UI queue.
 
-!unresponsive-ui.jpg!        
-    
+!unresponsive-ui.jpg!
+
     </section>
     <section>
 
 pre. 0.1 second is about the limit for having the user feel that the system
   is reacting instantaneously
-  
+
 : "Nielsen":http://www.useit.com/papers/responsetime.html
-  
-  
+
+
 Aanbeveling: beperk JavaScript execution tot < 50ms.
-      
-    </section>    
+
+    </section>
 </div>
 
 
@@ -552,7 +561,7 @@ h1. High Performance Javascript
 
 <div class="step">
     <section>
-    
+
 pre. During page-load, the page doesn't render while JavaScript is downloaded,
  parsed and executed
 
@@ -560,7 +569,7 @@ pre. During page-load, the page doesn't render while JavaScript is downloaded,
 * Scripts at the bottom
 * combineer scripts
 * maar beter, laad ze dynamisch / async, dit blocked pas wanneer ze worden uitgevoerd.
-* gebruik het attribuut 'defer'. Scripts downloaden direct, maar worden pas na alle UI updates uitgevoerd 
+* gebruik het attribuut 'defer'. Scripts downloaden direct, maar worden pas na alle UI updates uitgevoerd
 
     </section>
     <section>
@@ -568,35 +577,35 @@ pre. During page-load, the page doesn't render while JavaScript is downloaded,
 *runtime oplossingen*
 * Getimed JavaScript uitvoeren
 * "Web Workers":http://www.whatwg.org/specs/web-workers/current-work/, processen in een eigen thread. Geen toegang tot de DOM. Nog geen IE ondersteuning.
-    
-    
+
+
     </section>
 </div>
-    
-    
+
+
 h1. HTML5 Accessibillity: Is it ready yet?
 
-h2. door Steve Faulkner ("@stevefaulkner":http://twitter.com/stevefaulkner ) & Hans Hillen ("@hanshillen":http://twitter.com/hanshillen), "video":http://vimeo.com/16243415   
-    
+h2. door Steve Faulkner ("@stevefaulkner":http://twitter.com/stevefaulkner ) & Hans Hillen ("@hanshillen":http://twitter.com/hanshillen), "video":http://vimeo.com/16243415
+
 In short: *NO*
 
 pre. "Accessibility is always bolted on instead of built-in. The earlier
- it is bolted on, the more robust it is."    
+ it is bolted on, the more robust it is."
 
 <div class="step">
     <section>
-    
+
 De "WAI-ARIA":http://www.w3.org/TR/wai-aria/ (Accessible Rich Internet Applications) specificatie moet ook door HTML5 worden ondersteund om het bolten-on te vergemakkelijken.
 
 "html5accessibility.com":http://html5accessibility.com/ laat zien hoe ver de browsers zijn.
 
     </section>
     <section>
-    
-Hans Hillen toont nog een mooie "screenreader":http://www.nvda-project.org/ demo (29e minuut in de "video":http://vimeo.com/16243415) welke ook aangeeft dat niet alleen de browsers voor accessibillity problemen zorgen.    
+
+Hans Hillen toont nog een mooie "screenreader":http://www.nvda-project.org/ demo (29e minuut in de "video":http://vimeo.com/16243415) welke ook aangeeft dat niet alleen de browsers voor accessibillity problemen zorgen.
 
 Hans stipt daarnaast nog een goede Web Accessibillity resource aan, "WebAIM":http://webaim.org/
-    
+
     </section>
 </div>
 
@@ -607,7 +616,7 @@ h2. door Cameron Adams, "@themaninblue":http://twitter.com/themaninblue, "video"
 
 <div class="step">
     <section>
-    
+
 *Wanneer gebruik je animaties?*
 # Attention
 # Narrative
@@ -616,16 +625,16 @@ h2. door Cameron Adams, "@themaninblue":http://twitter.com/themaninblue, "video"
 # Understandable interfaces
 # Temporal understanding
 # Creative expression
-       
+
     </section>
     <section>
 
 *2 animatie modellen*
 # Artist (gebruikmakend van een canvas dat je per frame cleared)
-# Director (het aansturen van meerdere tijdlijnen / acteurs)   
-    
+# Director (het aansturen van meerdere tijdlijnen / acteurs)
+
     </section>
-</div>    
+</div>
 
 h1. The Renaissance of Browser Animation
 
@@ -635,7 +644,7 @@ h1. The Renaissance of Browser Animation
 # SVG (Director)
 # Canvas (Artist)
 # Flash (Director)
-# WebGL (Artist)    
+# WebGL (Artist)
 
 *Leuke links*
 * "Blobular":http://www.themaninblue.com/experiment/Blobular/ SVG animatie / spel
@@ -646,10 +655,10 @@ h1. The Renaissance of Browser Animation
 
 *Wanneer welke animatie techniek?*
 
-!animations.jpg!    
+!animations.jpg!
 
 
-    
+
 
 h1. Reasons to be Cheerful
 
@@ -673,17 +682,16 @@ pre. "The techonologies to build stuff with are pretty easy to learn
 
 h1. Reasons to be Cheerful
 
-h2. 
+h2.
 
 pre. "Our job is awesome. Like Chewbacca on a giant squirrel fighting nazi's
  with a crossbow"
 
-!chewbacca.jpg!  
+!chewbacca.jpg!
 
 
 
-h1. Reasons to be Cheerful      
+h1. Reasons to be Cheerful
 
-||<iframe src="http://player.vimeo.com/video/16249024" width="400" height="225" frameborder="0"><a href="http://vimeo.com/16249024">Chris Heilmann - Reasons to be Cheerful; Fronteers 2010</a></iframe> || 
+||<iframe src="http://player.vimeo.com/video/16249024" width="400" height="225" frameborder="0"><a href="http://vimeo.com/16249024">Chris Heilmann - Reasons to be Cheerful; Fronteers 2010</a></iframe> ||
 <object id="__sse5398860" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=reasons-to-be-cheerful-101009023351-phpapp01&stripped_title=reasons-to-be-cheerful-fronteers-2010&userName=cheilmann" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse5398860" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=reasons-to-be-cheerful-101009023351-phpapp01&stripped_title=reasons-to-be-cheerful-fronteers-2010&userName=cheilmann" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object> <a href="http://www.slideshare.net/cheilmann/reasons-to-be-cheerful-fronteers-2010" title="Reasons to be cheerful - Fronteers 2010">Reasons to be cheerful - Fronteers 2010</a> ||
-    

@@ -1,0 +1,42 @@
+<section>
+            <style>
+            [required] {
+              background-color: lightyellow;
+            }
+            :invalid {
+              background-color: red;
+            }
+            .form-inputs {
+              font-size: 80%;
+            }
+            .form-inputs input {
+              padding: 2px;
+            }
+            </style>
+            <pre class="form-inputs"><style>
+  [required] { background-color: lightyellow; }
+  :invalid { background-color: red; }
+</style>
+
+<input type="text" <b>required</b> /><input type="text" required="">
+<input type="<b>email</b>" value="some@email.com" /> <input type="email" value="some@email.com">
+<input type="<b>date</b>" <b>min</b>="2010-08-14" <b>max</b>="2011-08-14" value="2010-08-14"/> <input type="date" min="2010-08-14" max="2011-08-14" value="2010-08-14">
+<input type="<b>range</b>" <b>min</b>="0" <b>max</b>="50" value="10" /> <input type="range" min="0" max="50" value="10">
+<input type="<b>search</b>" <b>results</b>="10" <b>placeholder</b>="Search..." /> <input results="10" type="search" placeholder="Search...">
+<input type="<b>tel</b>" placeholder="(555) 555-5555" <b>pattern</b>="^\(?\d{3}\)?[-\s]\d{3}[-\s]\d{4}.*?$" />
+<input type="tel" placeholder="(555) 555-5555" pattern="^\(?\d{3}\)?[-\s]\d{3}[-\s]\d{4}.*?$">
+<input type="<b>color</b>" <b>placeholder</b>="e.g. #bbbbbb" /> <input type="color" placeholder="e.g. #bbbbbb">
+<input type="<b>number</b>" <b>step</b>="1" <b>min</b>="-5" <b>max</b>="10" value="0" /> <input type="number" step="1" min="-5" max="10" value="0">
+</pre>
+
+<h2>Others:</h2>
+<pre class="form-inputs"><<b>meter</b> <b>min</b>="0" <b>max</b>="100" <b>low</b>="40" <b>high</b>="90" <b>optimum</b>="100" value="91">A+</<b>meter</b>>
+Your score is: <meter value="91" min="0" max="100" low="40" high="90" optimum="100">A+</meter>
+<<b>progress</b>>working...</<b>progress</b>>
+Download is: <progress>working...</progress>
+<<b>progress</b> value="75" <b>max</b>="100">3/4 complete</<b>progress</b>>
+Goal is: <progress value="75" max="100">3/4 complete</progress>
+<<b>output</b>>
+</pre>
+
+          </section>
