@@ -1,10 +1,9 @@
-tWelcome to the #fronteers12 (day2) Etherpad. Please scroll down for the latest talks!
-
-Day 1 can be found here: http://etherpad.wikimedia.org/fronteers12
+Fronteers 2012 notes, day 2
+===========================
 
 With contributions by David Hund, derWhity, eonlepapillon, frenkie, Mike_L, MoritzGiessmann, sjoerdly, Thomas L and Hayify
 
-== Marcin Wichary @mwichary , The biggest devils in the smallest details
+## Marcin Wichary @mwichary , The biggest devils in the smallest details
 [Storified by @frenkie](http://storify.com/frenkie/fronteers-12-marcin-wichary-the-biggest-devils-in)
 Makes the Google Doodles.
 
@@ -57,7 +56,7 @@ Q&A
 Marcin would really like to put his stuff on Github, but he just doesn't have the time.
 He suggests we have to keep inspiring him to write a post and tweet him to ask hkm that.
 
-== David DeSandro @desandro, Open Source Ain't Free
+## David DeSandro @desandro, Open Source Ain't Free
 [Slides](http://desandro.github.com/open-source-aint-free/ )
 [Storified by @frenkie](http://storify.com/frenkie/fronteers-12-david-desandro-keep-it-simple-smartyp)
 Note that David changed his talk two days before the conference, so the text on websites and stuff might be off.
@@ -88,7 +87,7 @@ Chris Heilmann: people did pay for Flash images galleries. It seems that the mod
 It's not just good enough to put stuff on Github, like in 'tada code!'
 
 
-== Jeroen Wijering - The State of HTML5 Video
+## Jeroen Wijering - The State of HTML5 Video
 [Storified by @frenkie](http://storify.com/frenkie/fronteers-12-jeroen-wijering-the-state-of-html5-vi)
 Development of JW Player (2005): one thing i would never do again: charge a $15 license for YouTube :)
 
@@ -128,7 +127,7 @@ A: We polyfill everything.
 Q: Can we style the controls of a HTML5 player?
 A: Nope. There are some proposals for a Shadow DOM to style controls.
 
-== Anne van Kesteren, Building the web platform ([@annevk](https://twitter.com/annevk ))
+## Anne van Kesteren, Building the web platform ([@annevk](https://twitter.com/annevk ))
 [Storified by @frenkie](http://storify.com/frenkie/fronteers-12-anne-van-kesteren-building-the-web-pl )
 Used to work for Opera, unemployed now, still works on W3 webstandards.
 WTW.tf lolz
@@ -159,7 +158,7 @@ The body end tag is kinda useless, it doesn't do anything.
 IDL's are the interface for all HTML elements
 [Example for the <img> element](http://www.whatwg.org/specs/web-apps/current-work/multipage/embedded-content-1.html#the-img-element )
 
-== Phil Hawksworth, I can smell your CMS [@philhawksworth](http://twitter.com/philhawksworth )
+## Phil Hawksworth, I can smell your CMS [@philhawksworth](http://twitter.com/philhawksworth )
 [Storified by @frenkie](http://storify.com/frenkie/fronteers-12-phil-hawksworth-i-can-smell-your-cms )
 [Slides of this presentation]( https://speakerdeck.com/u/philhawksworth/p/i-can-smell-your-cms )
 Works at a marketing agency in London called R/GA.
@@ -209,7 +208,7 @@ Combine your website with [Varnish] ( https://www.varnish-cache.org/ ) to speed 
 
 Challenge CMS stink. Fight for the chance to do good on the web.
 
-== Peter Nederlof - Beyond simple transitions, with a pinch of JavaScript [@peterlof] ( http://twitter.com/peterlof )
+## Peter Nederlof - Beyond simple transitions, with a pinch of JavaScript [@peterlof] ( http://twitter.com/peterlof )
 [Storified by @frenkie]( http://storify.com/frenkie/fronteers-12-peter-nederlof-beyond-simple-transiti )
 
 Works for Ex Machina, makes second screens.
@@ -237,8 +236,9 @@ However, 'transitionEnd' is not fired when the transition is interrupted.
 
 Flickr found out with their HTML5 app that having a background-image on a div and using translatex/y is a lot faster on an iPad than traditional images with top and left animation. [Source?]
 
-== Rebecca Murphey, JS Minty Fresh: Identifying and Eliminating Smells in Your Code Base ([@rmurphey](https://twitter.com/rmurphey ) - Works for bocoup.com
+## Rebecca Murphey, JS Minty Fresh: Identifying and Eliminating Smells in Your Code Base ([@rmurphey](https://twitter.com/rmurphey ) - Works for bocoup.com
 [Slides](https://github.com/rmurphey/js-minty-fresh)
+[Storified by @frenkie](http://storify.com/frenkie/fronteers-12-rebecca-murphey-eliminating-smells-in)
 
 Having a smelly codebase results in:
 - harder debugging,
@@ -282,8 +282,3 @@ rewrite code
 incorporate code reviews
 mainatain and enforce a style guide
 write tests for your code
-
-== Alex Russell, What the legacy web is keeping from us
-
-
-==END==

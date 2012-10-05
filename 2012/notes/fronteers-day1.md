@@ -1,10 +1,9 @@
-Here is the etherpad for day2: http://etherpad.wikimedia.org/fronteers12-day2
-
- Welcome to the #fronteers12 Etherpad. Please scroll down for the latest talks!
+Fronteers 2012 notes, day 2
+===========================
 
 With contributions by @basvasilich, Alex, David Hund, derWhity, eonlepapillon, freco, reco, frenkie, hessi, Mike_L, @MikevHoenselaar, Morriz, Rutger, seb, sjoerdly and hayify
 
-== Adapting to Responsive Design - Mark Boulton ([@markboulton](https://twitter.com/markboulton))
+## Adapting to Responsive Design - Mark Boulton ([@markboulton](https://twitter.com/markboulton))
 http://storify.com/frenkie/fronteers-12
 
 "Responsive design is the red pill from the Matrix". Responsive design is a buzzword, like Ajax.
@@ -22,11 +21,6 @@ Advertisements are another problem. Advertising has been ruining the design of c
 Low fidelty designing allows you to screw up often and quickly, shortening the feedback loop.
 
 Wireframes do not work anymore for responsive webdesign. Why bother, build a prototype.
-
-
-
-
-
 
 Stories have a collections of little pieces of content attached (video, wuotes, images, text, etc) The story is no longer a page but editorial still thinks of it this way.
 
@@ -53,7 +47,7 @@ In the long run clients will go like "WOW, this works on all devices"
 We need better tools to support the editorial process. Content management is not a technical problem, but a people/process problem.
 BBC is working on a responsive design library.
 
-== Addy Osmani, The New And Improved Developer Toolbelt [@addyosmani](https://twitter.com/addyosmani )
+## Addy Osmani, The New And Improved Developer Toolbelt [@addyosmani](https://twitter.com/addyosmani )
 http://storify.com/frenkie/fronteers-12-the-new-and-improved-developer-toolbe
 
 In 1996, the 'advanced HTML editor' was basically a textarea. Tools must be changed if they can't evolve. Optimize your workflow continuesly. Ask yourself if the tools you use are the best there are at the time.
@@ -119,7 +113,7 @@ Generators
 For Windows
 http://www.decodize.com/css/installing-yeoman-front-end-development-stack-windows/https://github.com/yeoman/yeoman/issues/216
 
-== Peter-Paul Koch, A Pixel is not a Pixel [@ppk]( http://twitter.com/ppk )
+## Peter-Paul Koch, A Pixel is not a Pixel [@ppk]( http://twitter.com/ppk )
 [PPK's talk on Storify](http://storify.com/frenkie/fronteers-12-peter-paul-koch-a-pixel-is-not-a-pixe)
 Uses a wonderful [little camera for his mobile devices](http://camholder.org/ )
 
@@ -175,7 +169,7 @@ PPK never has used any Javascript library or framework, evah!
 View his presentation on: http://quirksmode.org/presentations/Spring2012/viewports_sf.pdf
 
 
-== Alex Graul, Using JS to build bigger, better datavis to enlighten and elate [@alexgraul]( https://twitter.com/AlexGraul ) ( http://www.sho.ch/ )
+## Alex Graul, Using JS to build bigger, better datavis to enlighten and elate [@alexgraul]( https://twitter.com/AlexGraul ) ( http://www.sho.ch/ )
 [Storify](http://storify.com/frenkie/fronteers-12-alex-graul-using-js-to-build-bigger-b?awesm=sfy.co_mA5k&utm_source=direct-sfy.co&utm_campaign=&utm_medium=sfy.co-twitter&utm_content=storify-pingback)
 
 Alex makes visualizations for the Guardian.
@@ -213,7 +207,7 @@ How do you make it clear stuff is interactive:
 
 Network diagrams with 10.000 nodes are pretty useless. As well as barcharts just for showing size.
 
-== Mathias Bynens, Ten things I didn’t know about HTML [@mathias](https://twitter.com/mathias)
+## Mathias Bynens, Ten things I didn’t know about HTML [@mathias](https://twitter.com/mathias)
 [Frank's take on Storify](http://storify.com/frenkie/fronteers-12-mathias-bynens-ten-things-i-didn-t-kn)
 
 <body bgcolor=sick"> actually gives a green background because of the legacy HTML3 parsing stuff. "sick" will be transformed to #000c00.
@@ -249,7 +243,7 @@ Can be handy for checking out if a variable name is valid
 Performance checks, don't use iterations but let stuff run for a second and check back.
 However, Windows XP has a weird internal clock that gets updated only every 10 or 15 miliseconds. Instead of that use a library like [Benchmark.js](http://benchmarkjs.com/) that works around these issues.
 
-== Stephen Hay, Style guides are the new Photoshop [@stephenhay](https://twitter.com/stephenhay)
+## Stephen Hay, Style guides are the new Photoshop [@stephenhay](https://twitter.com/stephenhay)
 
 Slides: http://www.slideshare.net/stephenhay/style-guides-are-the-new-photoshop-fronteers-2012
 
@@ -323,7 +317,7 @@ DEMO
 Q&A
 Stephen makes screenshots of the mockups instead of presenting the mockups because clients tend to say 'you're done already, nice!'
 
-== Antoine Hegeman, Bor Verkroost, Bram Duvigneau & Chris Heilmann, Accessibility panel
+## Antoine Hegeman, Bor Verkroost, Bram Duvigneau & Chris Heilmann, Accessibility panel
 [Frenkie's summary on Storify] ( http://storify.com/frenkie/fronteers-12-accessibility-panel )
 
 3 great guys explaining who they are and how they use the web. Instead of people that talk about what people with disabilities need, here are those people themselves.
@@ -373,7 +367,7 @@ Problem with the UWV form: you can do everything with the form to prevent people
 
 Splash pages (like the one on Nettorama.nl) is pretty awful too. Every click is a lot of work for someone with cerebral palsy.
 
-== Lea Verou, More CSS secrets: Another 10 things you may not know about CSS [@leaverou](https://twitter.com/LeaVerou )
+## Lea Verou, More CSS secrets: Another 10 things you may not know about CSS [@leaverou](https://twitter.com/LeaVerou )
 
 http://lea.verou.me/css3-secrets/ --> older presentation cfr. fronteers 2011
 http://lea.verou.me/more-css-secrets/ --> fronteers 2012
