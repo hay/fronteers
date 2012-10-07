@@ -1,4 +1,4 @@
-Fronteers 2012 notes, day 2
+Fronteers 2012 notes, day 1
 ===========================
 
 With contributions by @basvasilich, Alex, David Hund, derWhity, eonlepapillon, freco, reco, frenkie, hessi, Mike_L, @MikevHoenselaar, Morriz, Rutger, seb, sjoerdly and hayify
